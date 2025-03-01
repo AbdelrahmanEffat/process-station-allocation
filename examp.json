@@ -1,0 +1,38 @@
+[
+    {
+    "id": "process001",
+    "name": "Assemble collar top",
+    "stage": "PREPARATION",
+    "standardTime": 0.30,
+    "machineType": "Piqueuse 301",
+    "dependency": [],
+    "difficulty": 3,
+    "processOrder": 101,
+    "efficiency": 0.87,
+    "expectedTimeInMin": 0.34
+    },
+    {
+    "id": "process002",
+    "name": "Topstitch collar top",
+    "stage": "PREPARATION",
+    "standardTime": 0.35,
+    "machineType": "Piqueuse 301",
+    "dependency": ["process001"],
+    "difficulty": 3,
+    "processOrder": 102,
+    "efficiency": 0.87,
+    "expectedTimeInMin": 0.40
+    },
+    {
+        "id": "process003",
+        "name": "Assemble sleeve cut",
+        "stage": "PREPARATION",
+        "standardTime": 0.60,
+        "machineType": "Piqueuse 301",
+        "dependency": [],
+        "difficulty": 2,
+        "processOrder": 103,
+        "efficiency": 0.87,
+        "expectedTimeInMin": 0.69
+        }
+]
